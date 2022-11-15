@@ -1,0 +1,21 @@
+<div class="container">
+  <div>
+    <h1>Restful Tasks API</h1>
+  </div>
+  <div class="all_tasks">
+    <h2>All the tasks:</h2>
+  </div>
+
+  <ul>
+    <li *ngFor="let task of tasks">{{task.description}}</li>
+  </ul>
+
+  <div class="task_3">
+    <h1>The Third task:</h1>
+    <label>{{task.description}}</label>
+  </div>
+
+  <!-- {{tasks | json}} -->
+
+
+</div>
